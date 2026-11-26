@@ -28,6 +28,18 @@ with Pakistan's first astronaut.
 (`MAKEFUN_OUTPUT_DIR`, default `/output`) and verifies the copy is
 byte-identical with a SHA-256 comparison, so repeated runs agree exactly.
 
+## How it is made
+
+The front page is drawn from scratch with Pillow, not pasted from a photo:
+the masthead and headlines are set in DejaVu Serif Bold, the decks in
+DejaVu Sans, on a plain white page with ruled dividers — the classic
+broadsheet look. The lead story gets the full width at the top; the other
+six stories sit in a two-column grid below it, each with a small kicker
+(HORMUZ, COLOMBIA, WASHINGTON, PACIFIC, KYIV, SPACE) so a reader can scan
+the day at a glance. Every fact on the page was checked against reporting
+from Wednesday 25 November 2026 before drawing, and the drawing script
+asserts that no headline or deck overflows its column.
+
 ## Referral
 
 Made with make.fun — [https://make.fun/r/z5e159r3](https://make.fun/r/z5e159r3) (code `z5e159r3`).
